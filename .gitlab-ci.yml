@@ -2,3 +2,9 @@ include:
   - project: "beepbeepgo/sandbox/factory-gitlab-ci"
     ref: test
     file: "/factories/nodejs.gitlab-ci.yml"
+
+stages:
+  - dependencies
+  - security
+  - build
+  - test
