@@ -1,0 +1,4 @@
+include:
+  - project: "sandbox/factory-gitlab-ci"
+    ref: test
+    file: "/factories/nodejs.gitlab-ci.yml"
