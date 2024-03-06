@@ -1,7 +1,7 @@
 include:
   - project: "beepbeepgo/sandbox/factory-gitlab-ci"
     ref: test
-    file: "/factories/nodejs.gitlab-ci.yml"
+    file: "/jobs/nodejs/dependencies.gitlab-ci.yml"
 
 stages:
   - dependencies
