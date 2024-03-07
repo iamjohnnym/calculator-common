@@ -9,9 +9,14 @@ include:
     file: "/jobs/nodejs/lint.gitlab-ci.yml"
     inputs:
       job-prefix: calculator
+  - project: "beepbeepgo/sandbox/factory-gitlab-ci"
+    ref: test
+    file: "/jobs/nodejs/test.gitlab-ci.yml"
+    inputs:
+      job-prefix: calculator
 
 stages:
   - dependencies
+  - test
   - security
   - build
-  - test
