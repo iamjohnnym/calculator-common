@@ -1,7 +1,7 @@
 // test/calculator.test.js
 const chai = require("chai");
 const expect = chai.expect;
-const { divide } = require("../src/divide");
+const { divide } = require("../src");
 
 describe("Divide tests", function () {
   it("should divide two numbers correctly", () => {

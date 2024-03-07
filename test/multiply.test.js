@@ -1,7 +1,7 @@
 // test/calculator.test.js
 const chai = require("chai");
 const expect = chai.expect;
-const { multiply } = require("../src/multiply");
+const { multiply } = require("../src");
 
 describe("Multiply tests", function () {
   it("should multiply two numbers correctly", () => {

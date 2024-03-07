@@ -7,7 +7,6 @@
     "audit": "npm audit --production --audit-level=high",
     "start": "node ./bin/www",
     "test": "NODE_ENV=test nyc mocha",
-    "test:db": "NODE_ENV=test TEST_DB=test nyc mocha",
     "coverage": "npm test -- --reporter mocha-junit-reporter",
     "lint": "eslint .",
     "semantic-release": "semantic-release"

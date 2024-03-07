@@ -1,7 +1,7 @@
 // test/calculator.test.js
 const chai = require("chai");
 const expect = chai.expect;
-const { subtract } = require("../src/subtract");
+const { subtract } = require("../src");
 
 describe("Subtract tests", function () {
   it("should subtract two numbers correctly", () => {

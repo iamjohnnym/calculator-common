@@ -1,7 +1,7 @@
 // test/calculator.test.js
 const chai = require("chai");
 const expect = chai.expect;
-const { add } = require("../src/add");
+const { add } = require("../src");
 
 describe("Add tests", function () {
   it("should add two positive numbers correctly", () => {
