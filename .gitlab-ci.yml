@@ -2,6 +2,8 @@ include:
   - project: "beepbeepgo/sandbox/factory-gitlab-ci"
     ref: test
     file: "/jobs/nodejs/dependencies.gitlab-ci.yml"
+    inputs:
+      job-prefix: calculator-dependencies
 
 stages:
   - dependencies
